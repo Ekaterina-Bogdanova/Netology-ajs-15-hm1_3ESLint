@@ -1,0 +1,27 @@
+{
+  "name": "babel",
+  "version": "1.0.0",
+  "description": "HW-Babel\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D1-\u001b[3~\u001b[3~\u001b[3~\u001b[3~\u001b[3~\u001b[3~\u001b[3~\u001b[3~\u001b[3~\u001b[3~Babel",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx browser-sync start --server --files \"src/*\" --ss \"./src\"",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint ./src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ekaterina-Bogdanova/Netology-ajs-15-hm1_2Babel.git"
+  },
+  "author": "BG",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ekaterina-Bogdanova/Netology-ajs-15-hm1_2Babel/issues"
+  },
+  "homepage": "https://github.com/Ekaterina-Bogdanova/Netology-ajs-15-hm1_2Babel#readme",
+  "devDependencies": {
+    "browser-sync": "^2.27.5",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.24.0"
+  }
+}
